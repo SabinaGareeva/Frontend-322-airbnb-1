@@ -68,7 +68,6 @@
 .modal-header {
   position: relative;
   min-height: 64px;
-  border-bottom: 1px solid #ebebeb;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 24px;
@@ -94,8 +93,10 @@
 
 .modal-body__subtitle {
   font-size: 15px;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
   line-height: 30px;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 24px;
 }
 
 .modal-body__avatar {
@@ -146,3 +147,7 @@
   max-width: 384px;
   color: var(--subtitle-color);
 }
+
+.input.error{border-color: red;
+  background-color: #FFF8F6;
+   }
